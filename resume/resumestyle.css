@@ -10,6 +10,7 @@ body {
 
 header {
   text-align: center;
+  background-color: #B88A86; /*fallback*/
   background: rgba(184, 138, 134, .5);
   border-style: double;
   border-width: 20px;
@@ -53,7 +54,7 @@ h3 {
   font-size: 18px;
   font-style: italic;
   text-transform: uppercase;
-  letter-spacing: .0em;
+  letter-spacing: .05em;
   color: #904C5C;
   text-decoration: underline;
 }
@@ -61,7 +62,9 @@ p {
   font: bold 1.5em Saira Condensed, sans-serif;
   font-size: 14px;
   color: #5e323c;
+  background-color: #B88A86; /*fallback*/
   background: rgba(184, 138, 134, .5);
+
 }
 small {
   font: 1.5em Georgia, serif;
@@ -73,7 +76,8 @@ ul {
     font: bold 1.5em Saira Condensed, sans-serif;
     font-size: 14px;
     text-align: left; color: #5e323c;
-    background: rgba(184, 138, 134, .5)
+    background-color: #B88A86; /*fallback*/
+    background: rgba(184, 138, 134, .5);
 }
 
 .center {
