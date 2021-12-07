@@ -1,0 +1,100 @@
+td, th {
+          border: 2.5px double #C56824;
+          background-color: #A09F57;
+        }
+table {
+          font-family: "Lucida Console";
+          border: ridge 10px #CFB784;
+        }
+table.middle {
+          margin-left: auto;
+          margin-right: auto;
+        }
+body {
+        font-size: 100%;
+        line-height: 175%;
+        margin: 5 5% 5;
+        background-image: url("pattern.jpg");
+        background-repeat: repeat;
+        background-blend-mode: darken;
+        background-color: #5C4033;
+      }
+caption {
+          color: gold;
+          font-family: "Lucida Console";
+          font-size: 30px;
+        }
+
+a {
+  color: #C56824;
+  text-decoration: underline;
+}
+      }
+a:focus, a:hover {
+        color: gold;
+        background-color: #ffffff;
+      }
+a:active {
+    color: #C56824;
+    background-color: #ffffff;
+  }
+
+h1 {
+  font: bold 1.0em "Lilita One", monospace;
+  font-size: 75px;
+  color: #000000;
+}
+h2 {
+  font: bold 1.5em "Lilita One", monospace;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center; color: #CFB784;
+}
+
+h3 {
+  font: bold 1.5em "Lilita One", monospace;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: gold;
+}
+p {
+  font: bold 1.5em "Lilita One", monospace;
+  font-size: 14px;
+  color: #000000;
+  background-size: contain;
+  background-color: #A09F57; /*fallback*/
+  background: rgba(160, 159, 87, .5);
+
+}
+small {
+  font: 1.5em Georgia, serif;
+  font-size: 8px;
+  font-style:italic;
+  text-align: right; color: #000000;
+}
+ul {
+    font: bold 1.5em "Lilita One", monospace;
+    font-size: 14px;
+    text-align: left; color: #5e323c;
+    background-color: #A09F57; /*fallback*/
+    background: rgba(160, 159, 87, .5);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+header {
+  text-align: center;
+  background-color: #A09F57; /*fallback*/
+  background: rgba(160, 159, 87, .5);
+  border-style: ridge;
+  border-width: 20px;
+  border-spacing: 10px;
+  border-color: #c56824
+}
